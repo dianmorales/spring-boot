@@ -22,6 +22,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class Consumer {
 
+	private Long variable1;
+
 	@JmsListener(destination = "sample.queue")
 	public void receiveQueue(String text) {
 		System.out.println(text);
