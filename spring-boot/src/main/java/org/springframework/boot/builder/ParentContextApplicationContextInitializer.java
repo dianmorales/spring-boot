@@ -40,6 +40,9 @@ public class ParentContextApplicationContextInitializer implements
 
 	private int jotaInteger;
 
+	private String context;
+
+
 	public ParentContextApplicationContextInitializer(ApplicationContext parent) {
 		this.parent = parent;
 	}
