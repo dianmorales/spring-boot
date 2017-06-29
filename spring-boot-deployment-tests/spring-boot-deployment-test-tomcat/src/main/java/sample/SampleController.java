@@ -27,4 +27,7 @@ public class SampleController {
 		return "Hello World";
 	}
 
+	private String World() {
+		return "World";
+	}
 }
